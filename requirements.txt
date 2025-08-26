@@ -1,0 +1,52 @@
+# Core deep learning framework
+torch>=1.8.0
+torchvision>=0.9.0
+torchaudio>=0.8.0
+
+# Scientific computing and data processing
+numpy>=1.19.0
+scipy>=1.7.0
+pandas>=1.3.0
+
+# Image processing and visualization
+matplotlib>=3.3.0
+Pillow>=8.0.0
+opencv-python>=4.5.0
+
+# Machine learning utilities
+scikit-learn>=0.24.0
+tqdm>=4.60.0
+
+# Data loading and processing
+h5py>=3.1.0
+pickle5>=0.0.11; python_version < "3.8"
+
+# Utilities
+argparse
+glob2>=0.7
+pathlib2>=2.3.0; python_version < "3.4"
+
+# Optional: For advanced SAR processing
+# rioxarray>=0.3.0  # For geospatial data
+# rasterio>=1.2.0   # For raster data processing
+# geopandas>=0.9.0  # For geospatial data analysis
+
+# Development and testing (optional)
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.8.0
+
+# Jupyter notebook support (optional)
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
+
+# GPU support (install appropriate version for your CUDA version)
+# For CUDA 11.8:
+# torch>=1.13.0+cu118
+# torchvision>=0.14.0+cu118
+# torchaudio>=0.13.0+cu118
+
+# For CUDA 12.1:
+# torch>=2.0.0+cu121
+# torchvision>=0.15.0+cu121
+# torchaudio>=2.0.0+cu121
